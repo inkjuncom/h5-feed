@@ -1,0 +1,30 @@
+.searchBox {
+  padding: 0.06rem 0.16rem;
+  background-color: #fff;
+}
+
+.searchContent {
+  height: 0.38rem;
+  background-color: #f4f4f4;
+  border-radius: 0.06rem;
+  overflow: hidden;
+}
+
+.searchItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 0.38rem;
+}
+
+.searchIcon {
+  width: 0.16rem;
+  height: 0.16rem;
+  margin-right: 0.04rem;
+}
+
+.searchText {
+  font-size: 0.14rem;
+  color: #9c9c9c;
+}

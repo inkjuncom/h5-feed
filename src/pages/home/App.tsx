@@ -1,7 +1,10 @@
+import "keen-slider/keen-slider.min.css";
+import SearchBox from "./components/search-box";
+
 export default function App() {
   return (
     <>
-      <p>百亿补贴</p>
+      <SearchBox />
     </>
   );
 }
