@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <>
-      <h1>H5 Feed</h1>
+      <p>消费券</p>
     </>
   );
 }
