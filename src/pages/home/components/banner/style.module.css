@@ -1,0 +1,134 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0.12rem;
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.banner::-webkit-scrollbar {
+  display: none;
+}
+
+.doubleColumnCard {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 1.64rem;
+  height: 0.98rem;
+  padding: 0.05rem 0.04rem 0.04rem;
+  border-radius: 0.08rem;
+  box-sizing: border-box;
+}
+
+.doubleColumnHeader {
+  height: 0.12rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doubleColumnHeaderTitle {
+  height: 0.12rem;
+  line-height: 0.12rem;
+  margin-left: 0.02rem;
+  font-size: 0.12rem;
+  font-weight: bold;
+}
+
+.doubleColumnHeaderMore {
+  height: 0.12rem;
+  line-height: 0.12rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #5629ff;
+}
+
+.doubleColumnHeaderArrow {
+  width: 0.05rem;
+  height: 0.1rem;
+  margin-left: 0.04rem;
+  margin-right: 0.02rem;
+}
+
+.doubleColumnContent {
+  margin-top: 0.05rem;
+  height: 0.72rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doubleColumnCardItem {
+  width: 0.76rem;
+  height: 0.72rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  border-radius: 0.03rem;
+}
+
+.singleColumnCard {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 0.82rem;
+  height: 0.98rem;
+  padding: 0.05rem 0.04rem 0.04rem;
+  border-radius: 0.08rem;
+  box-sizing: border-box;
+}
+
+.singleColumnHeader {
+  height: 0.12rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleColumnHeaderTitle {
+  height: 0.12rem;
+  line-height: 0.12rem;
+  margin-left: 0.02rem;
+  font-size: 0.12rem;
+  font-weight: bold;
+}
+
+.singleColumnHeaderArrow {
+  width: 0.05rem;
+  height: 0.1rem;
+  margin-left: 0.04rem;
+  margin-right: 0.02rem;
+}
+
+.singleColumnContent {
+  margin-top: 0.05rem;
+  height: 0.72rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleColumnCardItem {
+  width: 0.76rem;
+  height: 0.72rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  border-radius: 0.03rem;
+}
