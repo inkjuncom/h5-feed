@@ -1,0 +1,65 @@
+.tabContainer {
+  position: relative;
+}
+.tabList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+}
+.tabList::-webkit-scrollbar {
+  display: none;
+}
+.tabItem {
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0.42rem;
+  width: 0.58rem;
+  position: relative;
+}
+.tabText {
+  font-size: 0.16rem;
+  line-height: 0.16rem;
+  text-align: center;
+  color: #151516;
+  font-family:
+    PingFang SC,
+    miui,
+    system-ui;
+}
+.activeTabText {
+  color: #f33250;
+  font-family:
+    PingFangSC-Semibold,
+    PingFang SC,
+    miui,
+    system-ui;
+}
+.tabIcon {
+  height: 0.16rem;
+}
+.tabLine {
+  width: 0.16rem;
+  height: 0.03rem;
+  border-radius: 0.02rem;
+  background-color: #f33250;
+  position: absolute;
+  bottom: 0.04rem;
+}
+.expand {
+  position: absolute;
+  width: 0.49rem;
+  height: 0.42rem;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+.expandIcon {
+  width: 0.49rem;
+  height: 0.37rem;
+  vertical-align: top;
+}
