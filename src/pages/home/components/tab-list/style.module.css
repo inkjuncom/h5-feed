@@ -1,15 +1,18 @@
 .tabContainer {
   position: relative;
 }
+
 .tabList {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   overflow-x: auto;
 }
+
 .tabList::-webkit-scrollbar {
   display: none;
 }
+
 .tabItem {
   flex-shrink: 0;
   text-align: center;
@@ -21,6 +24,7 @@
   width: 0.58rem;
   position: relative;
 }
+
 .tabText {
   font-size: 0.16rem;
   line-height: 0.16rem;
@@ -31,6 +35,7 @@
     miui,
     system-ui;
 }
+
 .activeTabText {
   color: #f33250;
   font-family:
@@ -39,9 +44,11 @@
     miui,
     system-ui;
 }
+
 .tabIcon {
   height: 0.16rem;
 }
+
 .tabLine {
   width: 0.16rem;
   height: 0.03rem;
@@ -50,6 +57,14 @@
   position: absolute;
   bottom: 0.04rem;
 }
+
+.tabItemPlaceholder {
+  display: inline-block;
+  width: 0.42rem;
+  height: 0.4rem;
+  flex-shrink: 0;
+}
+
 .expand {
   position: absolute;
   width: 0.49rem;
@@ -58,8 +73,80 @@
   bottom: 0;
   background-color: #fff;
 }
+
 .expandIcon {
   width: 0.49rem;
   height: 0.37rem;
   vertical-align: top;
+}
+
+.expandTabContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.expandTabContent {
+  background-color: #fff;
+}
+
+.expandTabHeader {
+  height: 0.37rem;
+  padding: 0 0.16rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expandTabHeaderText {
+  font-size: 0.15rem;
+  color: #151516;
+  font-family:
+    PingFangSC-Medium,
+    PingFang SC,
+    miui,
+    system-ui;
+}
+
+.expandTabHeaderCloseIcon {
+  width: 0.16rem;
+  height: 0.16rem;
+}
+
+.expandTabList {
+  padding-top: 0.06rem;
+  padding-left: 0.16rem;
+  padding-bottom: 0.04rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.expandTabItem {
+  margin: 0 0.05rem 0.09rem 0;
+  width: 0.82rem;
+  height: 0.31rem;
+  line-height: 0.31rem;
+  text-align: center;
+  font-size: 0.14rem;
+  border-radius: 0.04rem;
+  color: #58591b;
+  background-color: #fafafa;
+}
+
+.activeExpandTabItem {
+  margin: 0 0.05rem 0.09rem 0;
+  width: 0.82rem;
+  height: 0.31rem;
+  line-height: 0.31rem;
+  text-align: center;
+  font-size: 0.14rem;
+  border-radius: 0.04rem;
+  background-color: #fdebed;
+  color: #f33a50;
 }
